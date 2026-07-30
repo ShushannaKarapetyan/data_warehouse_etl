@@ -1,0 +1,26 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local configuration files
+*.env
+config/config.yaml
+
+# Ignore SQL Server-related files
+*.mdf
+*.ldf
+*.ndf
+
+# Ignore temporary or backup files
+*.log
+logs/*.log
+*.bak
+*.tmp
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+.venv/
+
+__pycache__/
+*.pyc

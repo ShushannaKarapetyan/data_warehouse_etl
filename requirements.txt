@@ -3,3 +3,4 @@ sqlalchemy
 mysql-connector-python
 pyyaml
 pytest
+python-dotenv

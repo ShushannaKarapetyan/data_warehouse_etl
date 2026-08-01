@@ -12,8 +12,6 @@ config/config.yaml
 *.ndf
 
 # Ignore temporary or backup files
-*.log
-logs/*.log
 *.bak
 *.tmp
 
@@ -21,6 +19,10 @@ logs/*.log
 .vscode/
 .idea/
 .venv/
+
+# Ignore log files
+*.log
+logs/*.log
 
 __pycache__/
 *.pyc

@@ -4,10 +4,7 @@ Create Database and Tables: data_warehouse_etl
 =============================================================
 Script Purpose:
     Creates the 'data_warehouse_etl' database and its 3 warehouse tables
-    (dim_customers, dim_products, fact_sales). All cleaning/
-    transformation happens in pandas before loading, so this
-    database holds only final, clean tables — no bronze/silver/
-    gold layering needed here.
+    (dim_customers, dim_products, fact_sales).
 
 WARNING:
     Running this script will drop the 'data_warehouse_etl' database if it exists.
@@ -19,7 +16,7 @@ WARNING:
 -- Drop and recreate the database
 DROP DATABASE IF EXISTS data_warehouse_etl;
 CREATE DATABASE data_warehouse_etl;
-USE dwh;
+USE data_warehouse_etl;
 
 -- Table: dim_customers
 CREATE TABLE dim_customers (

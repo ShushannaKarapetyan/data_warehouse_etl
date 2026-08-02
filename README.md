@@ -3,7 +3,7 @@ This project demonstrates a data warehousing solution built with **Python, panda
 
 ## 🏗️ Data Architecture
 
-This project uses a **Staging → Data Warehouse** architecture — the classic ETL pattern where transformation happens *before* data is loaded, not inside the database:
+This project uses a **Staging → Data Warehouse** architecture - the classic ETL pattern where transformation happens *before* data is loaded, not inside the database:
 
 - **Extract**: Source CSV files (CRM and ERP systems) are read into pandas DataFrames.
 - **Transform**: All cleaning, standardization, deduplication, and business-key resolution happens **in memory, in pandas**.
@@ -109,11 +109,11 @@ pytest tests/ -v
 
 ## 🧰 Tech Stack
 
-- **Python** — pipeline logic and orchestration
-- **pandas** — extraction, cleaning, and transformation
-- **SQLAlchemy** — database connectivity
-- **MySQL** — data warehouse storage
-- **pytest** — unit testing
-- **python-dotenv** — environment-based configuration
+- **Python** - pipeline logic and orchestration
+- **pandas** - extraction, cleaning, and transformation
+- **SQLAlchemy** - database connectivity
+- **MySQL** - data warehouse storage
+- **pytest** - unit testing
+- **python-dotenv** - environment-based configuration
 
 ---
